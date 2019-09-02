@@ -12,14 +12,3 @@ bash setup-zsh.sh
 
 # setup valet+
 bash valet.sh
-
-
-
-
-
-
-
-
-
-
-

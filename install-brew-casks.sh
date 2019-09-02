@@ -5,7 +5,6 @@ brew update
 # Apps
 apps=(
   phpstorm
-  intellij-idea
   atom
   sublime-text
   iterm2

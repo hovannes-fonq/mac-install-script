@@ -7,8 +7,8 @@ See `setup.sh`,
 
 ## Installation
 This script installs the following:
-- brew packages
-- brew casks (Applications)
+- brew [packages](https://formulae.brew.sh/formula/)
+- brew [casks](https://formulae.brew.sh/cask/) (Applications)
 - npm packages
 - sets up zsh shell
 - installs [valet+](https://github.com/weprovide/valet-plus)
