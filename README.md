@@ -5,24 +5,27 @@ This script installs all dependencies to provision a php local develelopment env
 You can view and modify which packages need to be installed on your mac.
 See `setup.sh`,
 
+## Installation
 This script installs the following:
 - brew packages
 - brew casks (Applications)
 - npm packages
-- valet+
+- sets up zsh shell
+- installs [valet+](https://github.com/weprovide/valet-plus)
 
 1. Install requirements
     ```bash
     $ sudo bash init.sh
     ```
 
-2. Install requirements
+2. Install packages, applications and valet+
     ```bash
-    $ sudo bash setup.sh
-    ```
-   
-3. Optionally you can configure mac os settings
-    ```bash
-    $ sudo bash setup-mac-settings.sh
+    $ bash setup.sh
     ```
 After the scripts are done, you can create new projects inside `~/sites` and start developing!
+
+## Optionally
+1. Optionally you can configure mac os settings
+    ```bash
+    $ bash setup-mac-settings.sh
+    ```
