@@ -1,15 +1,17 @@
-echo "Creating an SSH key for you..."
-yes | ssh-keygen -t rsa
+# install brew
+bash install-brew.sh
 
-echo "Please add this public key to Github \n"
-echo "https://github.com/account/ssh \n"
-read -p "Press [Enter] key after this..."
+# brew formulae
+bash install-brew-formulae-packages.sh
 
-echo "Installing xcode-stuff"
-xcode-select --install
+# brew casks
+bash install-brew-cask-applications.sh
 
-# Install Homebrew if we don't have it
-if test ! $(which brew); then
-  echo "Installing homebrew..."
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-fi
+# npm packages
+bash intall-global-npm-packages.sh
+
+# configure zsh shell
+bash configure-zsh-shell.sh
+
+# install valet+
+bash install-valet-plus.sh

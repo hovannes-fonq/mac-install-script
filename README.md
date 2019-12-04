@@ -2,27 +2,45 @@
 
 This script installs all dependencies to provision a php local develelopment environtmet.
 
-You can view and modify which packages need to be installed on your mac.
-See `setup.sh`,
+You can view and modify which applications and packages need to be installed on your mac.
+
+See `install-brew-cask-applications.sh` and `install-brew-formulae-packages`
 
 ## Installation
 This script installs the following:
 - brew [packages](https://formulae.brew.sh/formula/)
 - brew [casks](https://formulae.brew.sh/cask/) (Applications)
-- npm packages
-- sets up zsh shell
+- global npm packages
+- configures your zsh shell
 - installs [valet+](https://github.com/weprovide/valet-plus)
 
-1. Install requirements
+Install everything at once
     ```bash
-    $ sudo bash init.sh
+    $ bash init.sh
     ```
 
-2. Install packages, applications and valet+
+Run the scripts individually
     ```bash
-    $ bash setup.sh
+	# install brew
+	bash install-brew.sh
+
+	# brew formulae
+	bash install-brew-formulae-packages.sh
+
+	# brew casks
+	bash install-brew-cask-applications.sh
+
+	# npm packages
+	bash intall-global-npm-packages.sh
+
+	# configure zsh shell
+	bash configure-zsh-shell.sh
+
+	# install valet+
+	bash install-valet-plus.sh
     ```
-After the scripts are done, you can create new projects inside `~/sites` and start developing!
+
+After the scripts are done, you can create new projects inside the `~/Sites` directory and start developing!
 
 ## Optionally
 1. Optionally you can configure mac os settings
