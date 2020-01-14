@@ -12,6 +12,3 @@ bash intall-global-npm-packages.sh
 
 # configure zsh shell
 bash configure-zsh-shell.sh
-
-# install valet+
-bash install-valet-plus.sh
