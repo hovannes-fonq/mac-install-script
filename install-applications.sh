@@ -5,17 +5,17 @@ brew update
 # Apps
 apps=(
   phpstorm
-  sublime-text
+  visual-studio
   iterm2
   sequel-pro
-  cyberduck
   postman
   google-chrome
+  microsoft-teams
+  tunnelblick
   slack
-  lastpass
-  whatsapp
   spotify
-  toggl
+  docker
+  vagrant
 )
 
 # Install apps to /Applications

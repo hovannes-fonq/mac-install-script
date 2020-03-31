@@ -4,11 +4,7 @@ brew update
 
 echo "Installing other brew stuff..."
 brew install composer
-brew install node@10
-brew install yarn
-brew install deployer
-brew install wget
-brew install nmap
+brew install mariadb@10.3
 
 echo "Cleaning up brew"
 brew cleanup
